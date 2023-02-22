@@ -1,0 +1,53 @@
+.container-fuid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.losmejoresrestaurantes{
+    display: flex;
+    margin: 1rem;
+    overflow-x: scroll;
+    width: 80vw;
+}
+
+.losmejoresrestaurantes::-webkit-scrollbar {
+    width: 20px;
+  }
+
+.losmejoresrestaurantes::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+.losmejoresrestaurantes::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 2px;
+    width: ;
+  }
+  
+.losmejoresrestaurantes::-webkit-scrollbar-thumb:hover {
+    background: rgb(83, 83, 83); 
+  }
+
+
+.TopCiudades{
+    display: flex;
+    margin: 1rem;
+}
+
+.TopBarrios{
+    display: flex;
+    margin: 1rem;
+}
+
+.TopComidas{
+    display: flex;
+    margin: 1rem;
+}
+
+div{
+    margin: 1rem;
+}
